@@ -21,6 +21,10 @@ public class Cheat {
 
 
     public Cheat() {
+        this.group = "Ungrouped";
+        this.type = "Gameshark";
+        this.activation = "EndFrame";
+        this.description = "";
         this.codes = new ArrayList<>();
     }
 
